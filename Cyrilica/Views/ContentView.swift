@@ -15,7 +15,7 @@ struct ContentView: View {
     TabView {
       GameView()
         .tabItem {
-          Label("Game", systemImage: "dice")
+          Label("Play", systemImage: "dice")
         }.padding(20)
       StatisticView()
         .tabItem {
