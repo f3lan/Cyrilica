@@ -17,7 +17,7 @@ struct DisplayView: View {
           RoundedRectangle(cornerRadius: 10)
             .stroke(Color.yellow, lineWidth: 5)
         }
-        Text("Ф1").font(.system(size: 250)).shadow(
+        Text("Ф").font(.system(size: 250)).shadow(
           color: colorScheme == .dark ?  Color.white : Color.black,
           radius: 5)
           .padding()
