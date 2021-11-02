@@ -1,0 +1,24 @@
+А а 	A a 							Н н 	N   n
+Б б 	B b 							Њ њ 	Nj  nj
+В в 	V v wie deutsches W 			О о 	O   o
+Г г 	G g 							П п 	P   p
+Д д 	D d 							Р р 	R   r
+Ђ ђ 	Đ đ 							С с 	S   s
+Е е 	E e 							Т т 	T   t
+Ж ж 	J j wie in Journalist, Jazz 	Ћ ћ 	Ć   ć wie „chen“ in Brötchen
+З з 	S s 							У у 	U   u
+И и 	I i 							Ф ф 	F   f
+Ј ј 	Ј ј, oft wie unbetontes i 		Х х 	H   h
+К к 	K k 							Ц ц 	C   c wie deutsches „z“
+Л л 	L l 							Ч ч 	Č   č wie „tsch“ in Rutsche
+Љ љ 	Lj lj 							Џ џ 	D¸   d¸
+М м 	M m 							Ш ш 	Sch sch 
+
+
+
+
+cyril = array(А,Б,В,Г,Д,Ђ,Е,Ж,З,И,Ј,К,Л,Љ,М,Н,Њ,О,П,Р,С,Т,Ћ,У,Ф,Х,Ц,Ч,Џ,Ш)
+
+latin = array(A,B,V,G,D,Đ,E,J,S,I,Ј,K,L,LjM,N,Nj,O,P,R,S,T,Ć,U,F,H,C,Č,D,Sch)
+
+phone = array(A,B,W,G,D,dsch,E,Journalist,S,I,wie unbetontes i,K,L,LjM,N,Nj,O,P,R,S,T,bröt-chen,U,F,H,Z,Ru-tsch-e,D,Sch)

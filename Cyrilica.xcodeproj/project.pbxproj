@@ -12,6 +12,8 @@
 		DC0225752730099800651733 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0225742730099800651733 /* GameView.swift */; };
 		DC02257727300A2A00651733 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC02257627300A2A00651733 /* DisplayView.swift */; };
 		DC02257B2730124300651733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC02257A2730124300651733 /* LaunchScreen.storyboard */; };
+		DC1A63F32731A47D004DF15E /* cyrilica_array in Resources */ = {isa = PBXBuildFile; fileRef = DC1A63F22731A47D004DF15E /* cyrilica_array */; };
+		DC1A63F62731A4AE004DF15E /* cyrilica_array in Resources */ = {isa = PBXBuildFile; fileRef = DC1A63F52731A4AE004DF15E /* cyrilica_array */; };
 		DCA3C52727314A2800D7BF39 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA3C52627314A2800D7BF39 /* StatisticView.swift */; };
 		DCA3C52927315A4100D7BF39 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA3C52827315A4100D7BF39 /* SettingsView.swift */; };
 		DCA3C52D27315D1500D7BF39 /* PieChartRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA3C52C27315D1500D7BF39 /* PieChartRows.swift */; };
@@ -65,6 +67,8 @@
 		DC0225742730099800651733 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		DC02257627300A2A00651733 /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
 		DC02257A2730124300651733 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC1A63F22731A47D004DF15E /* cyrilica_array */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cyrilica_array; path = ../../../../Desktop/cyrilica_array; sourceTree = "<group>"; };
+		DC1A63F52731A4AE004DF15E /* cyrilica_array */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cyrilica_array; sourceTree = "<group>"; };
 		DCA3C52627314A2800D7BF39 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
 		DCA3C52827315A4100D7BF39 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		DCA3C52A27315B4E00D7BF39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -123,6 +127,15 @@
 				DCA3C52827315A4100D7BF39 /* SettingsView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		DC1A63F42731A494004DF15E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DCA3C53227315E7800D7BF39 /* Models */,
+				DC02256D273007EF00651733 /* Views */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 		DCA3C525273146E800D7BF39 /* Game */ = {
@@ -188,10 +201,10 @@
 		DCC597F027218EA8000DE0AE /* Cyrilica */ = {
 			isa = PBXGroup;
 			children = (
-				DCA3C53227315E7800D7BF39 /* Models */,
+				DC1A63F52731A4AE004DF15E /* cyrilica_array */,
+				DC1A63F42731A494004DF15E /* App */,
 				DCA3C52A27315B4E00D7BF39 /* Info.plist */,
 				DC02257A2730124300651733 /* LaunchScreen.storyboard */,
-				DC02256D273007EF00651733 /* Views */,
 				DCC597F127218EA8000DE0AE /* CyrilicaApp.swift */,
 				DCC597F527218EA9000DE0AE /* Assets.xcassets */,
 				DCC597F727218EA9000DE0AE /* Preview Content */,
@@ -218,6 +231,7 @@
 		DCC5980B27218EA9000DE0AE /* CyrilicaUITests */ = {
 			isa = PBXGroup;
 			children = (
+				DC1A63F22731A47D004DF15E /* cyrilica_array */,
 				DCC5980C27218EA9000DE0AE /* CyrilicaUITests.swift */,
 				DCC5980E27218EA9000DE0AE /* CyrilicaUITestsLaunchTests.swift */,
 			);
@@ -332,8 +346,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC1A63F32731A47D004DF15E /* cyrilica_array in Resources */,
 				DC02257B2730124300651733 /* LaunchScreen.storyboard in Resources */,
 				DCC597F927218EA9000DE0AE /* Preview Assets.xcassets in Resources */,
+				DC1A63F62731A4AE004DF15E /* cyrilica_array in Resources */,
 				DCC597F627218EA9000DE0AE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
