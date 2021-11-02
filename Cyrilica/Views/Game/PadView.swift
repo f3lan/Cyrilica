@@ -37,7 +37,7 @@ struct PadView: View {
         }.alert(isPresented: $showAlert) {
           Alert(
             title: Text("Debug"),
-            message: Text("Button pressed -  \(currentButton)")
+            message: Text("Button pressed:  \(currentButton)")
           )
           
         }
