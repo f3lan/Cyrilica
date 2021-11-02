@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC02256F2730083100651733 /* PadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC02256E2730083100651733 /* PadView.swift */; };
+		DC0225712730085800651733 /* GridStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0225702730085800651733 /* GridStack.swift */; };
+		DC0225752730099800651733 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0225742730099800651733 /* GameView.swift */; };
+		DC02257727300A2A00651733 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC02257627300A2A00651733 /* DisplayView.swift */; };
+		DC02257B2730124300651733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC02257A2730124300651733 /* LaunchScreen.storyboard */; };
+		DCA3C52727314A2800D7BF39 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA3C52627314A2800D7BF39 /* StatisticView.swift */; };
+		DCA3C52927315A4100D7BF39 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA3C52827315A4100D7BF39 /* SettingsView.swift */; };
+		DCA3C52D27315D1500D7BF39 /* PieChartRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA3C52C27315D1500D7BF39 /* PieChartRows.swift */; };
+		DCA3C52F27315D7400D7BF39 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA3C52E27315D7400D7BF39 /* PieChartView.swift */; };
+		DCA3C53127315DEC00D7BF39 /* PieSliceView.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA3C53027315DEC00D7BF39 /* PieSliceView.swift.swift */; };
+		DCA3C53427315E8A00D7BF39 /* PieSliceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA3C53327315E8A00D7BF39 /* PieSliceData.swift */; };
+		DCA3C53727317A2600D7BF39 /* ShuffleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA3C53627317A2600D7BF39 /* ShuffleView.swift */; };
+		DCA3C53927317A7A00D7BF39 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA3C53827317A7A00D7BF39 /* Settings.swift */; };
 		DCC597F227218EA8000DE0AE /* CyrilicaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC597F127218EA8000DE0AE /* CyrilicaApp.swift */; };
 		DCC597F427218EA8000DE0AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC597F327218EA8000DE0AE /* ContentView.swift */; };
 		DCC597F627218EA9000DE0AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC597F527218EA9000DE0AE /* Assets.xcassets */; };
@@ -33,7 +46,34 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DC02258B273022E000651733 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		DC02256E2730083100651733 /* PadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadView.swift; sourceTree = "<group>"; };
+		DC0225702730085800651733 /* GridStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridStack.swift; sourceTree = "<group>"; };
+		DC0225742730099800651733 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		DC02257627300A2A00651733 /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		DC02257A2730124300651733 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCA3C52627314A2800D7BF39 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
+		DCA3C52827315A4100D7BF39 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		DCA3C52A27315B4E00D7BF39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DCA3C52C27315D1500D7BF39 /* PieChartRows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartRows.swift; sourceTree = "<group>"; };
+		DCA3C52E27315D7400D7BF39 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		DCA3C53027315DEC00D7BF39 /* PieSliceView.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieSliceView.swift.swift; sourceTree = "<group>"; };
+		DCA3C53327315E8A00D7BF39 /* PieSliceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieSliceData.swift; sourceTree = "<group>"; };
+		DCA3C53627317A2600D7BF39 /* ShuffleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleView.swift; sourceTree = "<group>"; };
+		DCA3C53827317A7A00D7BF39 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		DCC597EE27218EA8000DE0AE /* Cyrilica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cyrilica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC597F127218EA8000DE0AE /* CyrilicaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyrilicaApp.swift; sourceTree = "<group>"; };
 		DCC597F327218EA8000DE0AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +111,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC02256D273007EF00651733 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DCA3C53527317A1200D7BF39 /* Settings */,
+				DCA3C52B27315CED00D7BF39 /* Satistics */,
+				DCA3C525273146E800D7BF39 /* Game */,
+				DCC597F327218EA8000DE0AE /* ContentView.swift */,
+				DC0225742730099800651733 /* GameView.swift */,
+				DCA3C52627314A2800D7BF39 /* StatisticView.swift */,
+				DCA3C52827315A4100D7BF39 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DCA3C525273146E800D7BF39 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				DC0225702730085800651733 /* GridStack.swift */,
+				DC02256E2730083100651733 /* PadView.swift */,
+				DC02257627300A2A00651733 /* DisplayView.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		DCA3C52B27315CED00D7BF39 /* Satistics */ = {
+			isa = PBXGroup;
+			children = (
+				DCA3C52C27315D1500D7BF39 /* PieChartRows.swift */,
+				DCA3C52E27315D7400D7BF39 /* PieChartView.swift */,
+				DCA3C53027315DEC00D7BF39 /* PieSliceView.swift.swift */,
+			);
+			path = Satistics;
+			sourceTree = "<group>";
+		};
+		DCA3C53227315E7800D7BF39 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DCA3C53327315E8A00D7BF39 /* PieSliceData.swift */,
+				DCA3C53827317A7A00D7BF39 /* Settings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DCA3C53527317A1200D7BF39 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				DCA3C53627317A2600D7BF39 /* ShuffleView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		DCC597E527218EA7000DE0AE = {
 			isa = PBXGroup;
 			children = (
@@ -79,7 +170,10 @@
 				DCC5980B27218EA9000DE0AE /* CyrilicaUITests */,
 				DCC597EF27218EA8000DE0AE /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
 		};
 		DCC597EF27218EA8000DE0AE /* Products */ = {
 			isa = PBXGroup;
@@ -94,8 +188,11 @@
 		DCC597F027218EA8000DE0AE /* Cyrilica */ = {
 			isa = PBXGroup;
 			children = (
+				DCA3C53227315E7800D7BF39 /* Models */,
+				DCA3C52A27315B4E00D7BF39 /* Info.plist */,
+				DC02257A2730124300651733 /* LaunchScreen.storyboard */,
+				DC02256D273007EF00651733 /* Views */,
 				DCC597F127218EA8000DE0AE /* CyrilicaApp.swift */,
-				DCC597F327218EA8000DE0AE /* ContentView.swift */,
 				DCC597F527218EA9000DE0AE /* Assets.xcassets */,
 				DCC597F727218EA9000DE0AE /* Preview Content */,
 			);
@@ -137,6 +234,7 @@
 				DCC597EA27218EA7000DE0AE /* Sources */,
 				DCC597EB27218EA7000DE0AE /* Frameworks */,
 				DCC597EC27218EA7000DE0AE /* Resources */,
+				DC02258B273022E000651733 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -190,7 +288,10 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1300;
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
 					DCC597ED27218EA7000DE0AE = {
@@ -231,6 +332,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC02257B2730124300651733 /* LaunchScreen.storyboard in Resources */,
 				DCC597F927218EA9000DE0AE /* Preview Assets.xcassets in Resources */,
 				DCC597F627218EA9000DE0AE /* Assets.xcassets in Resources */,
 			);
@@ -257,7 +359,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCA3C52D27315D1500D7BF39 /* PieChartRows.swift in Sources */,
+				DCA3C53427315E8A00D7BF39 /* PieSliceData.swift in Sources */,
+				DCA3C52727314A2800D7BF39 /* StatisticView.swift in Sources */,
+				DCA3C53727317A2600D7BF39 /* ShuffleView.swift in Sources */,
+				DCA3C53927317A7A00D7BF39 /* Settings.swift in Sources */,
+				DCA3C52927315A4100D7BF39 /* SettingsView.swift in Sources */,
+				DCA3C53127315DEC00D7BF39 /* PieSliceView.swift.swift in Sources */,
+				DC02256F2730083100651733 /* PadView.swift in Sources */,
+				DC02257727300A2A00651733 /* DisplayView.swift in Sources */,
 				DCC597F427218EA8000DE0AE /* ContentView.swift in Sources */,
+				DCA3C52F27315D7400D7BF39 /* PieChartView.swift in Sources */,
+				DC0225752730099800651733 /* GameView.swift in Sources */,
+				DC0225712730085800651733 /* GridStack.swift in Sources */,
 				DCC597F227218EA8000DE0AE /* CyrilicaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,18 +530,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Cyrilica/Preview Content\"";
 				DEVELOPMENT_TEAM = E2TG25JHBD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cyrilica/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,7 +556,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -446,18 +565,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Cyrilica/Preview Content\"";
 				DEVELOPMENT_TEAM = E2TG25JHBD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cyrilica/Info.plist;
+				"INFOPLIST_FILE[sdk=*]" = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,7 +592,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -476,11 +601,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = E2TG25JHBD;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -501,11 +627,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = E2TG25JHBD;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
