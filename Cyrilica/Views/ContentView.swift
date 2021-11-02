@@ -19,7 +19,7 @@ struct ContentView: View {
         }.padding(20)
       StatisticView()
         .tabItem {
-          Label("Statistics", systemImage: "chart.bar")
+          Label("Statistic", systemImage: "chart.bar")
         }.padding(20)
       SettingsView()
         .tabItem {
