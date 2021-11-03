@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  Cyrilica
+
+  Created by Felix on 03.11.21.
+  
+*/
+"base.debug" = "Debug";
+"base.debug.button %@" = "Button pressed: %@";
+
+"contentView.game" = "Game";
+"contentView.statistics" = "Statistics";
+"contentView.settings" = "Settings";
+
+"statisticsView.statistics" = "Statistics";
+"statisticsView.right" = "Right";
+"statisticsView.wrong" = "Wrong";
+"statisticsView.total" = "Total";
+
+"settingsView.settings" = "Settings";
+"settingsView.dangerZone" = "Danger Zone";
+"settingsView.mode" = "Mode";

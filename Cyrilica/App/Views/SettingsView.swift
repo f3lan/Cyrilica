@@ -11,16 +11,16 @@ struct SettingsView: View {
     var body: some View {
       NavigationView {
         Form {
-          Section(header: Text("Mode")) {
+          Section(header: Text("settingsView.mode")) {
             ShuffleView()
           }
-          Section(header: Text("Danger Zone")) {
+          Section(header: Text("settingsView.dangerZone")) {
             Text("Reset Statistics")
               .font(.body)
               .foregroundColor(Color.red)
           }
         }
-        .navigationBarTitle(Text("Settings")).font(.largeTitle)
+        .navigationBarTitle(Text("settingsView.settings")).font(.largeTitle)
       }
     }
 }

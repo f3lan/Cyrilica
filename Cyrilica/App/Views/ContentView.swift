@@ -15,15 +15,15 @@ struct ContentView: View {
     TabView {
       GameView()
         .tabItem {
-          Label("Game", systemImage: "dice")
+          Label("contentView.game", systemImage: "dice")
         }.padding(20)
       StatisticView()
         .tabItem {
-          Label("Statistics", systemImage: "chart.bar")
+          Label("contentView.statistics", systemImage: "chart.bar")
         }.padding(20)
       SettingsView()
         .tabItem {
-          Label("Settings", systemImage: "gear")
+          Label("contentView.settings", systemImage: "gear")
         }
     }
     .accentColor(colorScheme == .dark ? .white : .yellow)
@@ -39,6 +39,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
     ContentView()
+    ContentView().environment(\.locale, .init(identifier: "de"))
     ContentView().preferredColorScheme(.dark)
   }
 }

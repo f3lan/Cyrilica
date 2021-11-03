@@ -21,7 +21,7 @@ struct PieChartRows: View {
           RoundedRectangle(cornerRadius: 5.0)
             .fill(self.colors[i])
             .frame(width: 20, height: 20)
-          Text(self.names[i])
+          Text(LocalizedStringKey(self.names[i]))
           Spacer()
           VStack(alignment: .trailing) {
             Text(self.values[i])
@@ -40,6 +40,6 @@ struct PieChartRows_Previews: PreviewProvider {
   static var previews: some View {
     let values = [10, 20]
     let formatter = {value in String(format: "%.0f", value)}
-    PieChartRows(colors: [Color.red, Color.blue], names: ["A", "B"], values:values.map { formatter($0) }, percents: values.map { String(format: "%.0f%%", $0 * 100 / values.reduce(0, +)) })
+    PieChartRows(colors: [Color.red, Color.blue], names: ["statisticsView.right", "statisticsView.wrong"], values:values.map { formatter($0) }, percents: values.map { String(format: "%.0f%%", $0 * 100 / values.reduce(0, +)) })
   }
 }

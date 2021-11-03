@@ -15,18 +15,18 @@ struct StatisticView: View {
     if self.colorScheme == .dark {
       return [Color.white, Color.yellow]
     } else {
-      return  [Color.black, Color.yellow]
+      return [Color.black, Color.yellow]
     }
   }
   
   var body: some View {
     NavigationView() {
       PieChartView(values: [25, 75],
-                   names: ["Right", "Wrong"],
-                   formatter: {value in String(format: "%.1f", value)},
+                   names: ["statisticsView.right", "statisticsView.wrong"],
+                   formatter: {value in String(format: "%.2f", value)},
                    colors: setColors(colorScheme: self.colorScheme)
       )
-      .navigationTitle("Statistics")
+      .navigationTitle("statisticsView.statistics")
     }
   }
 }

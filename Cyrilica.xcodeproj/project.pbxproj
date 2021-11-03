@@ -13,7 +13,6 @@
 		DC02257727300A2A00651733 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC02257627300A2A00651733 /* DisplayView.swift */; };
 		DC02257B2730124300651733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC02257A2730124300651733 /* LaunchScreen.storyboard */; };
 		DC1A63F32731A47D004DF15E /* cyrilica_array in Resources */ = {isa = PBXBuildFile; fileRef = DC1A63F22731A47D004DF15E /* cyrilica_array */; };
-		DC1A63F62731A4AE004DF15E /* cyrilica_array in Resources */ = {isa = PBXBuildFile; fileRef = DC1A63F52731A4AE004DF15E /* cyrilica_array */; };
 		DCA3C52727314A2800D7BF39 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA3C52627314A2800D7BF39 /* StatisticView.swift */; };
 		DCA3C52927315A4100D7BF39 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA3C52827315A4100D7BF39 /* SettingsView.swift */; };
 		DCA3C52D27315D1500D7BF39 /* PieChartRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA3C52C27315D1500D7BF39 /* PieChartRows.swift */; };
@@ -22,6 +21,7 @@
 		DCA3C53427315E8A00D7BF39 /* PieSliceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA3C53327315E8A00D7BF39 /* PieSliceData.swift */; };
 		DCA3C53727317A2600D7BF39 /* ShuffleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA3C53627317A2600D7BF39 /* ShuffleView.swift */; };
 		DCA3C53927317A7A00D7BF39 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA3C53827317A7A00D7BF39 /* Settings.swift */; };
+		DCAD956027328CCD0082B69B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCAD956227328CCD0082B69B /* Localizable.strings */; };
 		DCC597F227218EA8000DE0AE /* CyrilicaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC597F127218EA8000DE0AE /* CyrilicaApp.swift */; };
 		DCC597F427218EA8000DE0AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC597F327218EA8000DE0AE /* ContentView.swift */; };
 		DCC597F627218EA9000DE0AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC597F527218EA9000DE0AE /* Assets.xcassets */; };
@@ -68,7 +68,6 @@
 		DC02257627300A2A00651733 /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
 		DC02257A2730124300651733 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC1A63F22731A47D004DF15E /* cyrilica_array */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cyrilica_array; path = ../../../../Desktop/cyrilica_array; sourceTree = "<group>"; };
-		DC1A63F52731A4AE004DF15E /* cyrilica_array */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cyrilica_array; sourceTree = "<group>"; };
 		DCA3C52627314A2800D7BF39 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
 		DCA3C52827315A4100D7BF39 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		DCA3C52A27315B4E00D7BF39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +77,8 @@
 		DCA3C53327315E8A00D7BF39 /* PieSliceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieSliceData.swift; sourceTree = "<group>"; };
 		DCA3C53627317A2600D7BF39 /* ShuffleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleView.swift; sourceTree = "<group>"; };
 		DCA3C53827317A7A00D7BF39 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		DCAD956127328CCD0082B69B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DCAD956327328CDC0082B69B /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DCC597EE27218EA8000DE0AE /* Cyrilica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cyrilica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC597F127218EA8000DE0AE /* CyrilicaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyrilicaApp.swift; sourceTree = "<group>"; };
 		DCC597F327218EA8000DE0AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -178,6 +179,7 @@
 		DCC597E527218EA7000DE0AE = {
 			isa = PBXGroup;
 			children = (
+				DCAD956227328CCD0082B69B /* Localizable.strings */,
 				DCC597F027218EA8000DE0AE /* Cyrilica */,
 				DCC5980127218EA9000DE0AE /* CyrilicaTests */,
 				DCC5980B27218EA9000DE0AE /* CyrilicaUITests */,
@@ -201,7 +203,6 @@
 		DCC597F027218EA8000DE0AE /* Cyrilica */ = {
 			isa = PBXGroup;
 			children = (
-				DC1A63F52731A4AE004DF15E /* cyrilica_array */,
 				DC1A63F42731A494004DF15E /* App */,
 				DCA3C52A27315B4E00D7BF39 /* Info.plist */,
 				DC02257A2730124300651733 /* LaunchScreen.storyboard */,
@@ -328,6 +329,7 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
 			);
 			mainGroup = DCC597E527218EA7000DE0AE;
 			productRefGroup = DCC597EF27218EA8000DE0AE /* Products */;
@@ -347,9 +349,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC1A63F32731A47D004DF15E /* cyrilica_array in Resources */,
+				DCAD956027328CCD0082B69B /* Localizable.strings in Resources */,
 				DC02257B2730124300651733 /* LaunchScreen.storyboard in Resources */,
 				DCC597F927218EA9000DE0AE /* Preview Assets.xcassets in Resources */,
-				DC1A63F62731A4AE004DF15E /* cyrilica_array in Resources */,
 				DCC597F627218EA9000DE0AE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,6 +425,18 @@
 			targetProxy = DCC5980927218EA9000DE0AE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCAD956227328CCD0082B69B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAD956127328CCD0082B69B /* en */,
+				DCAD956327328CDC0082B69B /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DCC5981027218EA9000DE0AE /* Debug */ = {

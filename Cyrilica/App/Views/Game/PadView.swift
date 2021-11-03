@@ -19,7 +19,7 @@ struct PadView: View {
   @State private var currentButton = ""
   
   var body: some View {
-    GridStack(rows: 3, columns: 2) { row, col in
+    GridStack(rows: 3, columns: 3) { row, col in
       ZStack {
         Button(action: {
           showAlert = true
@@ -36,8 +36,8 @@ struct PadView: View {
             )
         }.alert(isPresented: $showAlert) {
           Alert(
-            title: Text("Debug"),
-            message: Text("Button pressed:  \(currentButton)")
+            title: Text("base.debug"),
+            message: Text("base.debug.button \(currentButton)")
           )
           
         }
